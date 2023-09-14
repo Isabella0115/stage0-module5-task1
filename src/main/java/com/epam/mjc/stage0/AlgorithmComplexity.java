@@ -21,6 +21,7 @@ public class AlgorithmComplexity {
      */
     public Complexity badLinerSearch() {
 
+        return Complexity.O_N;
     }
 
     /**
@@ -28,12 +29,15 @@ public class AlgorithmComplexity {
      */
     public Complexity arrayIndexItemAccess() {
 
+        return  Complexity.O_1;
     }
 
     /**
      * Return the complexity of a binary search.
      */
     public Complexity binarySorting() {
+
+        return Complexity.O_LOG_N;
 
     }
 
@@ -42,5 +46,6 @@ public class AlgorithmComplexity {
      */
     public Complexity twoCycleSorting() {
 
+        return Complexity.O_N_2;
     }
 }
